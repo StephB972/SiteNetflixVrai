@@ -1,0 +1,25 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(190,35,35) 35%, rgba(0,0,0) 51%, rgba(248,248,248) 97%); background-size: cover;
+    /* mettre le color du texte ailleurs que dans cette balise */
+    color: aliceblue;
+}
+
+p {
+    font-size: 21px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+.image-home {
+    object-fit: contain;
+    height: 200px;
+    width: 200px;
+}
